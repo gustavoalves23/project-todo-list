@@ -1,7 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+body {
+  background-color: lightgreen;
+  font-family: Suez One, serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  font-size: 25px;
+  padding: 10px;
+  border-bottom: 1px dotted maroon;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.other-buttons {
+  margin-top: 20px;
+}
+
+#setting-buttons {
+  width: 660px;
+  margin: auto;
+}
+
+input {
+  padding: 10px;
+  border-radius: 50px;
+  background-color: lightyellow;
+  width: 300px;
+  margin: auto;
+}
+
+#insert-itens {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
 .selected-list-item {
-    background-color: rgb(128, 128, 128);
+  background-color: grey;
 }
 
 .completed {
-    text-decoration: line-through solid rgb(0, 0, 0);
+  text-decoration: line-through solid black;
+}
+
+#lista-de-tarefas {
+  height: 47vh;
+  overflow-y: scroll;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px dotted darkgreen;
+  background-color: rgb(193 , 247 , 193);
+}
+
+#lista-de-tarefas::-webkit-scrollbar {
+  display: none;
 }
