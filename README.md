@@ -2,7 +2,7 @@
 
 ## O que é?
 
-### Este projeto teve como objetivo desenvolver um mural onde o usuário pode colorir e formar figuras pintando quadrados com diferentes cores, geradas aleatóriamente.
+### Este projeto teve como objetivo desenvolver uma lista de afazeres, contendo diversas funções, como adicionar, remover, marcar como finalizada, salvar no localStorage e mover de acordo com a prioridade da tarefa.
 
 ## O que foi usado?
 
@@ -12,4 +12,4 @@
 - Eslint
 
 ### App em produção:
-http://project-pixel-art.vercel.app
+https://project-todo-list-six.vercel.app/
